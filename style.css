@@ -1,0 +1,32 @@
+body{
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 300%;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    color: white;
+    background: linear-gradient(white,skyblue);
+}
+*{
+    transition: all 0.3s;
+}
+.marco{
+    border-radius: 30px;
+    background-color: rgb(48, 48, 48);
+    padding: 15px;
+}
+
+.btn{
+    display: inline-block;
+    background:  rgb(141, 0, 0);
+    padding: 20px;
+    font-size: 60%;
+
+
+}
+.botones{
+    display: flex;
+    justify-content: space-between;
+
+}
